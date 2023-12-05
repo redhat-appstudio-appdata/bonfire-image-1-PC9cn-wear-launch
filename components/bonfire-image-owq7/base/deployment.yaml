@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: bonfire-image-owq7
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/bonfire-image-1/bonfire-image-owq7@sha256:70a6a59dbd72cce3be20b4523661277ff5aa3b710ee5e4e783b4177e5a1b38e1
         imagePullPolicy: Always
         name: container-image
         ports:
