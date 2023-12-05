@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: bonfire-image-owq7
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/bonfire-image-1/bonfire-image-owq7@sha256:70a6a59dbd72cce3be20b4523661277ff5aa3b710ee5e4e783b4177e5a1b38e1
+        name: container-image
+        resources: {}
+status: {}
