@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: bonfire-image-owq7
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
